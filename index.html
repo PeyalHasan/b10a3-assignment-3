@@ -56,15 +56,11 @@
                 <ul
                   tabindex="0"
                   class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                  <li><a>Item 1</a></li>
-                  <li>
-                    <a>Parent</a>
-                    <ul class="p-2">
-                      <li><a>Submenu 1</a></li>
-                      <li><a>Submenu 2</a></li>
-                    </ul>
-                  </li>
-                  <li><a>Item 3</a></li>
+                  <li><a class="text-black font-extrabold">Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact Us</a></li>
                 </ul>
               </div>
               <div class="flex items-center  ">
@@ -74,7 +70,7 @@
             </div>
             <div class="navbar-center hidden md:hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
-                <li><a>Home</a></li>
+                <li><a class="text-black font-extrabold">Home</a></li>
                 <li><a>Services</a></li>
                 <li><a>Portfolio</a></li>
                 <li><a>Blogs</a></li>
@@ -86,12 +82,28 @@
                     <a ><img class="bg-slate-100 size-10  p-2 rounded-full" src="./assets/search-30.png" alt=""></a>
                     <a ><img class="bg-slate-100 p-2 mr-2 rounded-full size-10" src="./assets/buy-50.png" alt=""></a>
                 </div>
-              <a class="btn bg-main-color rounded-3xl">Book Consult <span class="bg-black rounded-full"><img class="size-7  p-2  filter invert " src="./assets/up-arrow-25.png" alt=""></span></a>
+                <div class="hidden md:block lg:block">
+                    <a class="btn bg-main-color rounded-3xl">Book Consult <span class="bg-black rounded-full"><img class="size-7  p-2  filter invert " src="./assets/up-arrow-25.png" alt=""></span></a>
+                </div>
             </div>
           </div>
      </header>
-    <!-- Mian SEction -->
-     <main></main>
+    <!-- Main SEction -->
+     <main>
+        <!-- Banner Section -->
+         <section class="container mx-auto mt-3">
+            <div class=" container mx-auto w-[60%] ">
+                <img class= "w-full" src="./assets/banner.png" alt="">
+            </div>
+            <div class="w-[80%] container mx-auto">
+                <h1 class="text-3xl font-extrabold text-center mt-4">A barn house of this design has a striking appearance</h1>
+                <p class="text-center mt-3">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <div class=" md:w-48 container mx-auto">
+                    <a class="btn w-full bg-lime-200 font-extrabold  rounded-3xl mt-4">View Details <span class="rounded-full bg-main-color"><img class="size-7  p-2 " src="./assets/up-arrow-25.png" alt=""></span></a>
+                </div>
+            </div>
+         </section>
+     </main>
      <!-- Footer Section  -->
       <footer>
 
